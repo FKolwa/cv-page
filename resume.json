@@ -117,15 +117,18 @@
     "flavor": "Being multilingual, I've been raised on C and Bash but my interest quickly adapted to foreign (NodeJs, Golang) and antique (Assembler, Basic) languages. Dabbling into the obscure with the intention to pick up and learn as many weird things along the way as possible (ArnoldC) and always eager to learn more (currently Rust). Fact sheets only tell you so much about a person, the following skills are just a selection rather than a catalogue. Everything else we can talk about in person :) ",
     "hard": [
       "AWS",
+      "Check_MK",
       "Docker + Compose",
       "Golang",
       "Jenkins / Circle CI",
       "KVM",
-      "SQL / noSQL",
       "MongoDB",
       "NodeJs / JS",
+      "Postgres",
       "Puppet",
-      "Postgres"
+      "Python",
+      "SQL / noSQL",
+      "..."
     ],
     "soft": [
       "Eager to learn from others and become the next better version of myself.",
