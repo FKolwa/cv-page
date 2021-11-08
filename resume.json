@@ -1,0 +1,150 @@
+{
+  "header": {
+    "firstname":"Felix",
+    "name":"Felix Kolwa",
+    "opener": "Hi, I am",
+    "descriptions": [
+      "Builder",
+      "Dungeon Master",
+      "Code Golfer",
+      "IoT Enthusiast",
+      "Metal Head",
+      "Hamburger Jung",
+      "I run on Linux",
+      "Tinkerer",
+      "Deadpool Fanboy",
+      "Cheese Connoisseur",
+      "Lvl. 20 Bard",
+      "Trekkie",
+      "Motörizer",
+      "CLI Guy",
+      "100% human",
+      "I like trains",
+      "i3-wm user",
+      "raving about RedHat",
+      "Dwarven Rigger",
+      "proof of concept",
+      "8-Bit",
+      "I ❤ OpenSource",
+      "Drummer"
+    ],
+    "description":"DevOps Engineer, Programmer and",
+    "image":"me.jpg",
+    "bio":"DevOps Engineer, Software Developer and Tech-Enthusiast born in Hamburg, Germany. I'm always looking for new paths to take and people to meet and learn from. So why don't you hit me up on LinkedIn so we can start talking some tech?",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/felix-kolwa-728a96197/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/fkolwa",
+        "className":"fa fa-github"
+      }
+    ],
+    "short": [
+      {
+        "what": "Job in DevOps",
+        "when": "2020",
+        "icon": "work"
+      },
+      {
+        "what": "Graduating University",
+        "when": "2019",
+        "icon": "study"
+      },
+      {
+        "what": "Working in Dev",
+        "when": "2018",
+        "icon": "work"
+      },
+      {
+        "what": "Working in Ops",
+        "when": "2014",
+        "icon": "work"
+      }
+    ]
+  },
+  "table":{
+    "education": {
+      "quote": "An investement in knowledge pays the best interest",
+      "source": "Benjamin Franklin",
+      "past": [
+        {
+          "school":"University of Hamburg",
+          "degree":"Bachelor of Science in Informatics",
+          "graduated":"November 2019",
+          "description":"Thesis: A computer vision based pick and place solution for 3D printers"
+        },
+        {
+          "school":"Gymnasium Lohbrügge",
+          "degree":"Abitur / Highschool Diploma",
+          "graduated":"2007",
+          "description":""
+        }
+      ],
+      "current": [
+        {
+          "name":"CCNA Certificate",
+          "progress": "80",
+          "date": "Started September 2021"
+        }
+      ]
+    },
+    "work":[
+      {
+        "company":"Plath Group",
+        "title":"DevOps Engineer",
+        "years":"November 2020 - Present",
+        "description":"Providing reliable IaaS and PaaS for developers, testers and customers from the planning stage to the automated deployment in security critical environments."
+      },
+      {
+        "company":"Cybus",
+        "title":"NodeJS Developer",
+        "years":"January 2018 - November 2020",
+        "description":"Fullstack NodeJS developer, AWS and on-premises DevOps as well as half of the entire security team in a single person."
+      },
+      {
+        "company":"Self Employed",
+        "title":"Independent IT service provider",
+        "years":"November 2014 - January 2018",
+        "description":"IT administration, software development and network engineering for customers in the oil industry."
+      }
+    ]
+  },
+  "skills": {
+    "flavor": "Being multilingual, I've been raised on C and Bash but my interest quickly adapted to foreign (NodeJs, Golang) and antique (Assembler, Basic) languages. Dabbling into the obscure with the intention to pick up and learn as many weird things along the way as possible (ArnoldC) and always eager to learn more (currently Rust). Fact sheets only tell you so much about a person, the following skills are just a selection rather than a catalogue. Everything else we can talk about in person :) ",
+    "hard": [
+      "AWS",
+      "Docker + Compose",
+      "Golang",
+      "Jenkins / Circle CI",
+      "KVM",
+      "SQL / noSQL",
+      "MongoDB",
+      "NodeJs / JS",
+      "Puppet",
+      "Postgres"
+    ],
+    "soft": [
+      "Eager to learn from others and become the next better version of myself.",
+      "Being able to break down complex systems to their core components to predict, prevent and solve problems together in a team.",
+      "Always up for knowledge sharing. Minimizing the bus factor for fun and profit.",
+      "Planning and realizing robust Software and Infrastructure.",
+      "Automation through the entire software development life cycle from testing to deployment.",
+      "Performing software security audits and pen-testing",
+      "Network knowledge beyond high-level abstraction layers covering the entire ISO - OSI stack."
+    ]
+  },
+  "hobbies": [
+    {
+      "name":"Additive Manufacturing",
+      "description":"3D printing using FDM technology. Printing enclosures for my DIY electronics projects and justifying all these hours spend on learning Autodesk. Let's be honest: Most of the fun is in trying out fancy filaments and printer settings!"
+    },
+    {
+      "name":"Vintage CPUs and 8-Bit Architecture",
+      "description":"I love working with minimal resources as it sparks my creativity. Programming old systems like the Amstrad CPC or classic Gameboy (both powered by Zilog Z80 derivatives) offer a zen like experience to escape the modern world. This includes not only programming in assembler but also designing and building compatible hardware."
+    }
+  ]
+}

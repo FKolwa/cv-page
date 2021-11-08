@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kolwa/static/css/main.5facb584.chunk.css",
+    "main.js": "/kolwa/static/js/main.8d993429.chunk.js",
+    "main.js.map": "/kolwa/static/js/main.8d993429.chunk.js.map",
+    "runtime-main.js": "/kolwa/static/js/runtime-main.d1c33fab.js",
+    "runtime-main.js.map": "/kolwa/static/js/runtime-main.d1c33fab.js.map",
+    "static/js/2.ae11aa8f.chunk.js": "/kolwa/static/js/2.ae11aa8f.chunk.js",
+    "static/js/2.ae11aa8f.chunk.js.map": "/kolwa/static/js/2.ae11aa8f.chunk.js.map",
+    "index.html": "/kolwa/index.html",
+    "precache-manifest.319592d7d803180795f32b7d03417f03.js": "/kolwa/precache-manifest.319592d7d803180795f32b7d03417f03.js",
+    "service-worker.js": "/kolwa/service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "/kolwa/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.ae11aa8f.chunk.js.LICENSE.txt": "/kolwa/static/js/2.ae11aa8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1c33fab.js",
+    "static/js/2.ae11aa8f.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.8d993429.chunk.js"
+  ]
+}
