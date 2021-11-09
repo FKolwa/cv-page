@@ -32,7 +32,7 @@ class About extends Component {
             <div className='three columns header-col'>
               <img
                 className='profile-pic'
-                src={'images/' + image}
+                src={process.env.PUBLIC_URL + '/images/' + image}
                 alt={name}
               />
             </div>
