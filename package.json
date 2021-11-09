@@ -2,7 +2,7 @@
   "name": "cv-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fkolwa.github.io/cv-page",
+  "homepage": "https://kolwa.dev",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
