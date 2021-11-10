@@ -8,6 +8,10 @@ on:
     branches: [ implementing-cd-pipeline ]
   pull_request:
     branches: [ implementing-cd-pipeline ]
+env:
+  GITHUB_USER: ${{ secrets.GH_ACCESS_USER }}
+  GITHUB_USER_EMAIL: ${{ secrets.GH_ACCESS_USER_EMAIL }}
+  GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
 
 jobs:
   build:
@@ -26,7 +30,3 @@ jobs:
     - run: npm test
     - run: npm audit --production
     - run: ./.github/workflows/tasks/deploy-gh-page.sh $GITHUB_TOKEN $GITHUB_USER $GITHUB_USER_EMAIL
-      env:
-        GITHUB_USER: ${{ secrets.GH_ACCESS_USER }}
-        GITHUB_USER_EMAIL: ${{ secrets.GH_ACCESS_USER_EMAIL }}
-        GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
