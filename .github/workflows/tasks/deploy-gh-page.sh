@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-set -eu
+GITHUB_TOKEN=$1
+GITHUB_USER=$2
+GITHUB_USER_EMAIL=$3
 
 repo_uri="https://x-access-token:${GITHUB_TOKEN}@github.com/cv-page.git"
 remote_name="origin"
