@@ -27,6 +27,6 @@ jobs:
     - run: npm audit --production
     - run: ./.github/workflows/tasks/deploy-gh-page.sh
       env:
-          GITHUB_USER: ${{ secrets.GH_ACCESS_USER }}
-          GITHUB_USER_EMAIL: ${{ secrets.GH_ACCESS_USER_EMAIL }}
-          GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+        GITHUB_USER: ${{ secrets.GH_ACCESS_USER }}
+        GITHUB_USER_EMAIL: ${{ secrets.GH_ACCESS_USER_EMAIL }}
+        GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
