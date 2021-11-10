@@ -25,7 +25,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - run: npm audit --production
-    - run: ./.github/workflows/deploy-gh-page.sh
+    - run: ./.github/workflows/tasks/deploy-gh-page.sh
       env:
           GITHUB_USER: ${{ secrets.GH_ACCESS_USER }}
           GITHUB_USER_EMAIL: ${{ secrets.GH_ACCESS_USER_EMAIL }}
