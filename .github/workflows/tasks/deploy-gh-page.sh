@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-GITHUB_TOKEN=$1
-GITHUB_USER=$2
-GITHUB_USER_EMAIL=$3
-
 repo_uri="https://x-access-token:${GITHUB_TOKEN}@github.com/cv-page.git"
 remote_name="origin"
 main_branch="master"
@@ -11,6 +7,9 @@ target_branch="gh-pages"
 build_dir="./build"
 
 cd "$GITHUB_WORKSPACE"
+
+touch CNAME
+echo "${GH_PAGE_CNAME}" >> CNAME
 
 git config user.name "$GITHUB_USER"
 git config user.email "${GITHUB_USER_EMAIL}"
