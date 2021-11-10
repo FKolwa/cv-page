@@ -6,7 +6,7 @@ repo_uri="https://x-access-token:${GITHUB_TOKEN}@github.com/cv-page.git"
 remote_name="origin"
 main_branch="master"
 target_branch="gh-pages"
-build_dir="/build"
+build_dir="./build"
 
 cd "$GITHUB_WORKSPACE"
 
