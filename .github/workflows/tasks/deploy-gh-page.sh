@@ -8,15 +8,21 @@ build_dir="./build"
 
 cd "${GITHUB_WORKSPACE}"
 
-touch ./build/CNAME
-echo "${GH_PAGE_CNAME}" >> ./build/CNAME
 
 git config user.name "${GITHUB_USER}"
 git config user.email "${GITHUB_USER_EMAIL}"
 
+git checkout "$target_branch"
+git rebase "${remote_name}/${main_branch}"
+
+npm run build
+
+touch ./build/CNAME
+echo "${GH_PAGE_CNAME}" >> ./build/CNAME
+
 git add "${build_dir}" -f
 
-git commit -m "updated GitHub Pages"
+git commit -m "Pipeline: updated GitHub Pages"
 if [ $? -ne 0 ]; then
     echo "nothing to commit"
     exit 0
