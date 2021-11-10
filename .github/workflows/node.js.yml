@@ -29,4 +29,9 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - run: npm audit --production
-    - run: ./.github/workflows/tasks/deploy-gh-page.sh $GITHUB_TOKEN $GITHUB_USER $GITHUB_USER_EMAIL
+    - run: echo $NO_SECRET
+      env:
+        NO_SECRET: ${{ secrets.totally_not_secret }}
+    - run: echo $NO_SECRET2
+      env:
+        NO_SECRET2: ${{ secrets.totally_not_secret_environment }}        
