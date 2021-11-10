@@ -13,7 +13,7 @@ cd "$GITHUB_WORKSPACE"
 git config user.name "$GITHUB_USER"
 git config user.email "${GITHUB_USER_EMAIL}"
 
-git add "$build_dir"
+git add "$build_dir" -f
 
 git commit -m "updated GitHub Pages"
 if [ $? -ne 0 ]; then
