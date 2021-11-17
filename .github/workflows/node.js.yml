@@ -18,7 +18,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install Packages
-      run: npm install
+      run: npm ci
+    - name: Perform Tests
+      run: npm test
+    - name: Perform Audit
+      run: npm audit --production
     - name: Deploy to GH Pages
       run: |
         git config --global user.email "${{ secrets.GH_ACCESS_USER_EMAIL }}"
