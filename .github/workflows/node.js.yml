@@ -3,7 +3,7 @@ name: Github Page Deployment
 on:
   push:
     branches:
-      - implementing-cd-pipeline
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
