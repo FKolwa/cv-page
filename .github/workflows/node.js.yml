@@ -25,5 +25,7 @@ jobs:
         git config --global user.name "${{ secrets.GH_ACCESS_USER }}"
         git remote set-url origin https://${{ secrets.GH_ACCESS_TOKEN }}@github.com/${{ secrets.GH_ACCESS_USER }}/cv-page.git
         npm run build
+        touch ./build/CNAME
+        echo "${{ secrets.GH_PAGE_CNAME }}" >> ./build/CNAME
         npm run deploy
 
