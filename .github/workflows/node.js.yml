@@ -2,33 +2,6 @@ name: Github Page Deployment
 
 on:
   push:
-    branches: [ implementing-cd-pipeline ]
-  pull_request:
-    branches: [ implementing-cd-pipeline ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 16.x
-        cache: 'npm'
-    - run: npm audit --production
-    - run: npm ci
-    - run: ./.github/workflows/tasks/deploy-gh-page.sh
-      env:
-        GITHUB_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
-
-
-
-
-name: MasterDeployCI
-on:
-  push:
     branches:
       - implementing-cd-pipeline
 jobs:
@@ -43,6 +16,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+        cache: 'npm'
     - name: Install Packages
       run: npm install
     - name: Deploy to GH Pages
