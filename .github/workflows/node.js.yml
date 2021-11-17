@@ -30,7 +30,7 @@ name: MasterDeployCI
 on:
   push:
     branches:
-      - master
+      - implementing-cd-pipeline
 jobs:
   build:
     runs-on: ubuntu-latest
