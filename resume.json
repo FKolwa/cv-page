@@ -1,7 +1,6 @@
 {
   "header": {
-    "firstname":"Felix",
-    "name":"Felix Kolwa",
+    "name":"Felix",
     "opener": "Hi, I am",
     "descriptions": [
       "Builder",
@@ -84,11 +83,12 @@
           "description":""
         }
       ],
-      "current": [
+      "certs": [
         {
-          "name":"CCNA Certificate",
-          "progress": "100",
-          "date": "Certified in December 2021"
+          "name":"Cisco Certified Network Associate (CCNA)",
+          "image": "ccna.png",
+          "url": "https://www.credly.com/badges/a594a51f-d538-4f81-bf4e-e3026895018b/public_url",
+          "date": "December 2021"
         }
       ]
     },
