@@ -27,13 +27,13 @@ class Skills extends Component {
               <div className='row item'>
                 <div className='twelve columns'>
                   <p>{flavor}</p>
-                  <h1>
+                  <h3>
                     <span>Hard</span>
-                  </h1>
+                  </h3>
                   <ul>{hard.map(txt => <li key={txt}>{txt}</li>)}</ul>
-                  <h1>
+                  <h3>
                     <span>{'Soft & More'}</span>
-                  </h1>
+                  </h3>
                   <ul>{soft.map(txt => <li key={txt}>{txt}</li>)}</ul>
                 </div>
               </div>

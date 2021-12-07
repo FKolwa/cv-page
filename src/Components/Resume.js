@@ -41,28 +41,30 @@ class Resume extends Component {
       )
     })
 
-    const current_education = this.props.data.education.current.map(({
+    const certs = this.props.data.education.certs.map(({
       name,
-      progress,
-      date
+      image,
+      date,
+      url
     }) => {
-      const progressBarStyle = {
-        width: `${progress}%`
-      }
       return (
-        <div key={name}>
-        <h3>{name}</h3>
-        <div className='progress'>
-          <span className='info'>
-            {progress}% <span>&bull;</span>
-            <em className='date'>{date}</em>
-            <div className='progress-bar'>
-                <span className='progress-bar-fill' style={progressBarStyle} />
-            </div>
-          </span>
+        <div key={name} className='row'>
+          <div className='three columns header-col'>
+            <a href={url}>
+              <img
+                src={process.env.PUBLIC_URL + '/images/' + image}
+                alt={name}
+                width="100"
+                height="100"
+              />
+            </a>
+          </div>
+          <div className='six columns main-col'>
+            <h3>{name}</h3>
+            <p className='info'>{date}</p>
+          </div>
         </div>
-      </div>
-      );
+      )
     })
 
     return (
@@ -97,7 +99,7 @@ class Resume extends Component {
                   <h1>
                     <span>Certificates</span>
                   </h1>
-                  {current_education}
+                  {certs}
                 </div>
               </div>
             </div>

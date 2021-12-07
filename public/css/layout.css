@@ -320,7 +320,7 @@ ul#nav li.current a { color: #00bbff }
 
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 24px;
@@ -330,7 +330,7 @@ ul#nav li.current a { color: #00bbff }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -433,7 +433,7 @@ ul#nav li.current a { color: #00bbff }
 #hobbies a:hover, #hobbies a:focus { color: #313131; }
 
 #hobbies h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 24px;
@@ -443,7 +443,7 @@ ul#nav li.current a { color: #00bbff }
    padding-bottom: 6px;
 }
 #hobbies h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
 }
 
 #hobbies .header-col { padding-top: 9px; }
@@ -482,7 +482,7 @@ ul#nav li.current a { color: #00bbff }
 #skills a:hover, #skills a:focus { color: #313131; }
 
 #skills h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 24px;
@@ -493,7 +493,7 @@ ul#nav li.current a { color: #00bbff }
    padding-bottom: 6px;
 }
 #skills h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
 }
 
 #skills .header-col { padding-top: 9px; }

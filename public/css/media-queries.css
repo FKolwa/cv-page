@@ -288,7 +288,7 @@
    }
    #hobbies h1 { letter-spacing: 3px; text-align: center; }
    #hobbies .main-col { padding-right: 30px; }
-   #hobbies h3, #resume .info { text-align: center; }
+   #hobbies h3, #hobbies .info { text-align: center; }
 
    .bars { width: 100%; }
 

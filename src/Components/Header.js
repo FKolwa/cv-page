@@ -26,7 +26,7 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null
     const {
-      firstname,
+      name,
       description,
       descriptions,
     } = this.props.data
@@ -76,7 +76,7 @@ class Header extends Component {
 
             <div className='row banner'>
               <div className='banner-text'>
-                <h1 className='responsive-headline'>Hi, I'm {firstname}!</h1>
+                <h1 className='responsive-headline'>Hi, I'm {name}!</h1>
                 <hr />
                 <h3>{description}<br></br><TextTransition
                     inline={true}
