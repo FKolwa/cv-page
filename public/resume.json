@@ -44,6 +44,11 @@
     ],
     "short": [
       {
+        "what": "Software Engineer",
+        "when": "2022",
+        "icon": "work"
+      },
+      {
         "what": "Job in DevOps",
         "when": "2020",
         "icon": "work"
@@ -56,11 +61,6 @@
       {
         "what": "Working in Dev",
         "when": "2018",
-        "icon": "work"
-      },
-      {
-        "what": "Working in Ops",
-        "when": "2014",
         "icon": "work"
       }
     ]
@@ -94,9 +94,15 @@
     },
     "work":[
       {
+        "company":"Red Hat",
+        "title":"Software Engineer",
+        "years":"June 2022 - Present",
+        "description":"Bringing RHEL to the Cloud Provider near you."
+      },
+      {
         "company":"Plath Group",
         "title":"DevOps Engineer",
-        "years":"November 2020 - Present",
+        "years":"November 2020 - Mai 2022",
         "description":"Providing reliable IaaS and PaaS for developers, testers and customers from the planning stage to the automated deployment in security critical environments."
       },
       {
